@@ -1,0 +1,44 @@
+{
+  "commodity": "Li",
+  "best_model": "LogisticReg",
+  "spatial_cv_auc": {
+    "RandomForest": 0.7336,
+    "LogisticReg": 0.7634,
+    "HistGBoost": 0.7166,
+    "Ensemble": 0.7609
+  },
+  "truth_recovery_corr": 0.8772,
+  "honest_oof": {
+    "auc_roc": 0.7554244411053412,
+    "ausrc": 0.7532518997588131,
+    "gini": 0.5065037995176263,
+    "Nd": 2.355780137080795,
+    "capture_at_5pct": 0.2542372881355932,
+    "capture_at_10pct": 0.3050847457627119,
+    "capture_at_20pct": 0.5389229371851778,
+    "area_for_80pct_capture": 0.451133918128655,
+    "n_occurrences": 59
+  },
+  "delivered": {
+    "auc_roc": 0.8101725442044889,
+    "ausrc": 0.8083041745134967,
+    "gini": 0.6166083490269934,
+    "Nd": 2.6504453021091665,
+    "capture_at_5pct": 0.23728813559322035,
+    "capture_at_10pct": 0.3711188128079012,
+    "capture_at_20pct": 0.559322033898305,
+    "area_for_80pct_capture": 0.34085945419103314,
+    "n_occurrences": 59
+  },
+  "knowledge_driven_fuzzy": {
+    "auc_roc": 0.6291970097312625,
+    "ausrc": 0.5647318416096739,
+    "gini": 0.12946368321934787,
+    "Nd": 2.7970180676712846,
+    "capture_at_5pct": 0.1864406779661017,
+    "capture_at_10pct": 0.2863730500960368,
+    "capture_at_20pct": 0.423728813559322,
+    "area_for_80pct_capture": 0.869675633528265,
+    "n_occurrences": 59
+  }
+}
